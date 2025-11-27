@@ -24,6 +24,7 @@ video {
 	position: relative;
 }
 
+
 .reel-header {
 	position: absolute;
 	align-items: center;
@@ -35,6 +36,31 @@ video {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
+.reel-header .play{
+   display: flex;
+   justify-content:flex-start;
+   color: white;
+   margin-left: 20px;
+   margin-top: 5px;
+}
+
+.reel-header .search{
+   display: flex;
+   justify-content:flex-end;
+   color: white;
+   margin-right: 20px;
+   margin-top: 5px;
+}
+.reel-header .debug{
+   display: flex;
+   justify-content:center;
+   gap: 30px;
+   color: white;
+   margin-top: 5px;
+}
+
+
+
 
 /* Footer */
 
@@ -55,7 +81,10 @@ footer {
 	position: absolute;
 	right: 0;
 	top: 40%;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    align-items: center;
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
