@@ -101,7 +101,8 @@ footer {
 
 .sidebar> div:first-child img{
 	width: 20%;
-	border-radius: 40%;
+	border-radius: 50%;
+	border:solid #fff;
 
 }
 /* ---------------------
